@@ -20,7 +20,5 @@ const buttonsInstance = (
   React.createElement(ButtonToolbar, null, BUTTONS.map(renderDropdownButton))
 );
 
-//module.exports = buttonsInstance;
-
 React.render(buttonsInstance, document.getElementById('Buttons'));
 

@@ -46,9 +46,9 @@ def index():
                 "./scripts/js/App.js",
                 "./scripts/js/Chart.js",
                 "./scripts/js/d3Chart.js",
-                "./scripts/js/Pagination.js",
-                "./scripts/js/main.js",
-                "./scripts/js/Button.js"]
+                "./scripts/js/DataButton.js",
+                "./scripts/js/main.js"
+                ]
 
     return render_template('index.html',
         title=TITLE,
