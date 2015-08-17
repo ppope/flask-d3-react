@@ -3,7 +3,7 @@ var NavItem = ReactBootstrap.NavItem;
 var Nav = ReactBootstrap.Nav;
 
 const navbarInstance = (
-    <Navbar brand="PubMed" inverse toggleNavKey={0}>
+    <Navbar brand="Flask/D3/React" inverse toggleNavKey={0}>
     <Nav right eventKey={0}>
     </Nav>
     </Navbar>
