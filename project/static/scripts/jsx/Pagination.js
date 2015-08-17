@@ -23,7 +23,6 @@ var Pagination = React.createClass({
 
   changeGraph: function() {
     prevPath = this.props.appState.path;
-    console.log(prevPath);
     var newpath;
     if (prevPath == '/static/data/graph.json'){
       newPath = '/static/data/graph-2.json'; 
