@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description="Flask Template")
 parser.add_argument("--env", help="production or local", default="local")
 args = parser.parse_args()
 
-TITLE = "PubMed"
+TITLE = "Flask/React/D3"
 
 scripts = [
     "./bower_components/jquery/dist/jquery.min.js",

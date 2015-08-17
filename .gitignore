@@ -1,3 +1,5 @@
 node_modules
 project/static/bower_components
-
+*.swp
+*.pyc
+notebooks/.ipynb_checkpoints
